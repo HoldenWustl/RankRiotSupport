@@ -83,3 +83,21 @@ footer {
     font-size: 0.85rem;
     color: #666666;
 }
+.divider {
+    border: 0;
+    height: 1px;
+    background: #333;
+    margin: 40px 0;
+}
+
+.privacy-text {
+    text-align: left;
+    font-size: 0.9rem;
+    color: #aaa;
+    line-height: 1.4;
+}
+
+h2 {
+    color: #ff3b30;
+    margin-bottom: 20px;
+}

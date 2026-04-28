@@ -3,21 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RankRiot Support</title>
+    <title>RankRiot | Support & Privacy</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <h1>RankRiot Support</h1>
-        <p>Need help with the game, found a bug, or have a category suggestion? We've got you covered.</p>
-        
-        <div class="contact-box">
-            <p>Reach out to us directly at:</p>
-            <a href="mailto:hweinberg123@gmail.com" class="email-link">hweinberg123@gmail.com</a>
-            
-            <button id="copyBtn" onclick="copyEmail()">Copy Email</button>
-            <p id="copyMessage" class="hidden">Copied to clipboard!</p>
-        </div>
+        <section id="support">
+            <h1>RankRiot Support</h1>
+            <p>Need help, found a bug, or have a category suggestion?</p>
+            <div class="contact-box">
+                <a href="mailto:hweinberg123@gmail.com" class="email-link">hweinberg123@gmail.com</a>
+                <button id="copyBtn" onclick="copyEmail()">Copy Email</button>
+                <p id="copyMessage" class="hidden">Copied!</p>
+            </div>
+        </section>
+
+        <hr class="divider">
+
+        <section id="privacy">
+            <h2>Privacy Policy</h2>
+           <div class="privacy-text">
+    <p><strong>Last Updated: April 2026</strong></p>
+    <p>RankRiot is a Free app. This service is provided at no cost and is intended for use as is.</p>
+    
+    <p><strong>Leaderboard Data (Firebase):</strong> We use Google Firebase (Firestore) to store game scores. Firebase also automatically collects certain device information (such as IP addresses and service-related logs) to maintain the security and reliability of the database.</p>
+    
+    <p><strong>Advertising & Tracking (AdMob):</strong> This app uses Google AdMob to show ads. AdMob may collect your device's advertising identifier (IDFA) to show you personalized ads. This only occurs if you grant permission via the iOS tracking prompt.</p>
+    
+    <p><strong>Third Parties:</strong> Your data is shared only with Google (Firebase/AdMob) for the purposes of app functionality and advertising. We do not sell your personal information to any other parties.</p>
+    
+    <p><strong>Data Retention:</strong> Leaderboard entries are stored to maintain global rankings. To request the removal of your score data, please contact us at the email above.</p>
+</div>
+        </section>
     </div>
 
     <footer>
